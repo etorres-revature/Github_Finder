@@ -2,9 +2,9 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #d9534f;
   --dark-color: #333333;
-  --light-color: #f4f4f4;
+  --light-color: #4242e0;
   --danger-color: #dc3545;
   --success-color: #28a745;
   --warning-color: #ffd700;
@@ -259,7 +259,7 @@ img {
 .badge-light,
 .alert-light {
   background: var(--light-color);
-  color: #333;
+  color: #000;
 }
 
 .btn-dark,
