@@ -12,7 +12,7 @@ app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static("public"));
+app.use("/public", express.static(__dirname + "../client/build"));
 
 app.listen(PORT, () => {
   console.log(`App is active at http://localhost:${PORT}`);
