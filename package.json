@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "v12.x",
-    "npm": "6.x"
+    "npm": "v6.x"
   },
   "homepage": "https://etorres-revature.github.io/Github_Finder/",
   "dependencies": {
