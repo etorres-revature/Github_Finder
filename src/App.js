@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Layout/Navbar/Navbar";
-import User from "./components/Users/User";
-import Home from "./components/Pages/Home";
-import Alert from "./components/Layout/Alert/Alert";
-import About from "./components/Pages/About";
-import NotFound from "./components/Pages/NotFound";
+import Navbar from "./Components/Layout/Navbar/Navbar";
+import User from "./Components/Users/User";
+import Home from "./Components/Pages/Home";
+import Alert from "./Components/Layout/Alert/Alert";
+import About from "./Components/Pages/About";
+import NotFound from "./Components/Pages/NotFound";
 
 import GithubState from "./Context/Github/GithubState";
 import AlertState from "./Context/Alert/AlertState";
