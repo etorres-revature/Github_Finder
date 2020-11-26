@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "v12.x"
+    "node": "v12.x",
+    "npm": "6.x"
   },
+  "homepage": "https://etorres-revature.github.io/Github_Finder/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
