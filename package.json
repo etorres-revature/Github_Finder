@@ -6,7 +6,7 @@
     "node": "v12.x",
     "npm": "v6.x"
   },
-  "homepage": "https://etorres-revature.github.io/Github_Finder/",
+  "homepage": "https://enigmatic-ocean-42815.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

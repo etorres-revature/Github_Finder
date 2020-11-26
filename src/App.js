@@ -12,24 +12,26 @@ import AlertState from "./Context/Alert/AlertState";
 import "./App.css";
 
 const App = () => {
-  <GithubState>
-    <AlertState>
-      <Router>
-        <div className="App">
-          <Navbar title="GitHub Finder!" icon="fab fa-github" />
-          <div className="container">
-            <Alert />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/user/:login" component={User} />
-              <Route component={NotFound} />
-            </Switch>
+  return (
+    <GithubState>
+      <AlertState>
+        <Router>
+          <div className="App">
+            <Navbar title="GitHub Finder!" icon="fab fa-github" />
+            <div className="container">
+              <Alert />
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+                <Route exact path="/user/:login" component={User} />
+                <Route component={NotFound} />
+              </Switch>
+            </div>
           </div>
-        </div>
-      </Router>
-    </AlertState>
-  </GithubState>;
+        </Router>
+      </AlertState>
+    </GithubState>
+  );
 };
 
 export default App;
