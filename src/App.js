@@ -11,7 +11,6 @@ import GithubState from "./Context/Github/GithubState";
 import "./App.css";
 
 const App = (props) => {
-  const [users, setUsers] = useState([]);
   const [user, setUser] = useState({});
   const [repos, setRepos] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -51,12 +50,6 @@ const App = (props) => {
     setLoading(false);
   };
 
-  // Clear GitHub users form state
-  const clearUsers = () => {
-    setUsers([]);
-    setLoading(false);
-  };
-
   // show new alert for search button validation
   const newAlert = (msg, type) => {
     setAlert({ msg, type });
@@ -78,11 +71,9 @@ const App = (props) => {
                 render={(props) => (
                   <Fragment>
                     <Search
-                      clearUsers={clearUsers}
-                      showClear={users.length > 0 ? true : false}
                       newAlert={newAlert}
                     />
-                    <Users loading={loading} users={users} />
+                    <Users />
                   </Fragment>
                 )}
               />
