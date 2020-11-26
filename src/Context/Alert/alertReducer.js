@@ -5,7 +5,7 @@ export default (state, action) => {
     case SET_ALERT:
       return action.payload;
     case REMOVE_ALERT:
-      return null;q
+      return null;
     default:
       return state;
   }
