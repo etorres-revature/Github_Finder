@@ -2,6 +2,12 @@
   "name": "github_finder",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etorres-revature/Github_Finder/tree/master"
+  },
+  "author": "Eric D. Torres",
+  "license": "MIT",
   "engines": {
     "node": "v12.x",
     "npm": "v6.x"
