@@ -50,11 +50,13 @@ Once the Github API call is made, the information returned is dynamically displa
 
 ![GITHUB FINDER search results](./screenshots/github-finder-results.png)
 
-When the "more" button is pushed on a card, the associated Github user account information is displayed. The page
+When the "more" button is pushed on a card, the associated Github user account information is displayed.
 
 The user's picture, name, location, biography, link to github profile, username, and linked in URL are displayed prominently. Below that are badges for the user's followers, following, public repos, and public gists. Finally, there are links to some of the user's most recent repositories:
 
 ![GITHUB FINDER profile page](./screenshots/github-finder-profile.png)
+
+From the Github User page you can click links to return to the Search Page or view the Github user's profile.
 
 React creates a Single Page Application(SPA). With conditional rendering and the react router the SPA appears to have multiple pages.
 
@@ -62,7 +64,7 @@ React creates a Single Page Application(SPA). With conditional rendering and the
 
 ## Guidelines for Contributing
 
-If you have ideas for improvements or suggestions for further features, please e-mail the address below. 
+If you have ideas for improvements or suggestions for further features, please e-mail the address below.
 
 ## Tests
 
