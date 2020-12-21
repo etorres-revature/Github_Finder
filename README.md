@@ -5,7 +5,16 @@
 
 ## Project Description
 
-This app is designed to search the Github API for user information and display the information dynamically using React.js.  The axios npm pacakage is used to make calls to the Github API.  Client-side routing is provided by the react router.  Server-side routing is provided with Express.js.  The development environment was Node.js.  The app is deployed using the gh-pages npm pacakage as well on heroku.
+This app is designed to search the [Github API](https://docs.github.com/en/free-pro-team@latest/rest) for user information and display the information dynamically using [React.js](https://reactjs.org/).  
+
+The [axios npm package](https://www.npmjs.com/package/axios) is used to make calls to the Github API.  
+
+Client-side routing is provided by the [react router](https://reactrouter.com/web/guides/quick-start).  
+Server-side routing is provided with [Express.js](https://expressjs.com/).  
+
+The development environment was [Node.js](https://nodejs.org/en/).  
+
+The app is deployed using the [gh-pages npm package](https://www.npmjs.com/package/gh-pages) as well on [heroku](https://www.heroku.com/).
 
 ## Table of Contents
 
